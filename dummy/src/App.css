@@ -1,0 +1,182 @@
+
+.App {
+  text-align: center;
+  background-color: #0D0D0D;
+  /* height : 100vh; */
+}
+
+.container {
+ display: flex;
+ width : 100%;
+ margin: auto;
+ padding-top: 100px;
+ gap: 10%;
+ /* border: white 1px solid; */
+}
+
+h1, p {
+  color: white;
+}
+
+.inner {
+width: 40%;
+/* height: 147px; */
+text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+padding-left: 80px;
+/* border: white 1px solid; */
+
+}
+
+span {
+  background: linear-gradient(to right, #1DD3FF 0%, #FC30D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  line-height: 30px;
+  color: #BDBDBD;
+  font-size: 18px;
+  text-align: justify;
+  
+}
+
+.numbers {
+  display: flex;
+  /* border: 1px red solid; */
+  align-items: center;
+}
+
+.numbers > p{
+  line-height: 20px
+
+}
+
+.inner2{
+  display: flex;
+  gap: 100px;
+}
+
+
+.outer{
+  background-color: #1C1C1C;
+  /* height : 180vh; */
+  margin: 80px 80px 0 80px;
+  color: white;
+}
+
+.pools{
+  display: flex;
+  gap: 40px;
+  color: #D1D1D1;
+  padding-left: 35px;
+}
+
+.card {
+ display: flex;
+ width:100%;
+ /* gap: 3%; */
+ justify-content: space-around;
+ /* text-align: left; */
+}
+
+.LiquidityPool1, .LiquidityPool2 , .LiquidityPool3 {
+    width: 30%;
+    border: 1px solid white;
+    padding-top: 30px;
+    margin-top: 3%;
+}
+
+.LiquidityPool1 > div > p , .LiquidityPool2 > div > p, .LiquidityPool3 > div > p{
+  /* text-align: center; */
+  justify-content: left;
+  padding-left: 30px;
+}
+
+.LiquidityPool1 > img, .LiquidityPool2 > img, .LiquidityPool3 > img {
+  width: 85%;
+}
+
+.LiquidityPool1 hr , .LiquidityPool2 hr, .LiquidityPool3 hr{
+  border: none; 
+  background-color: #4C4C4C;
+  height: 2px; 
+  width: 90%; 
+
+}
+
+.outer > hr {
+  
+  border: none; 
+  background-color: #4C4C4C;
+  height: 2px; 
+  width: 20%; 
+  
+}
+
+.LiquidityPool1 h2 ,.LiquidityPool2 h2 , .LiquidityPool3 h2  {
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 35px 10px 30px;
+}
+
+.open {
+  height: 40px;
+  display: flex;
+  width: 90px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #70C117;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+
+.closed{
+  height: 40px;
+  display: flex;
+  width: 90px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: red;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+
+.logo > img {
+  width: 20%;
+} 
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  /* font-weight: 100; */
+  line-height: 10px;
+  color: #DBDBDB;
+}
+
+.LiquidityPool1  > button , .LiquidityPool2  > button , .LiquidityPool3 > button {
+  height: 60px;
+  width: 87%;
+  margin-bottom: 30px;
+  background-color: #B4FFF6;
+  border: #35C7AE 1px solid;
+  color: #222222;
+  font-weight: bolder;
+  font-size: 25px;
+  border-bottom: 6.5px solid #0C574A ;
+  border-right: 6.5px solid #05927A ;
+} 
